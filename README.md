@@ -36,4 +36,16 @@ Note: use ctrl+shift+v to preview md files in VS Code
 
 8. `git add <file>`
 
-   Stages changes in a file for the next commit. (note you can `git add *` to stage all files)
+   Stages changes in a file for the next commit. (note you can `git add *` to stage all files in the working directory, while `git add .` does the whole repository)
+
+9. `git commit -m "message"`
+
+   Saves the stages changes with a commit message.
+
+10. **Add a remote location for a repo**
+
+`git remote add origin <link to repo>`
+
+11. `git push`
+
+Sends local commits to the remote repository.
